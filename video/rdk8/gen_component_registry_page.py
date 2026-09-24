@@ -7,6 +7,7 @@ from import_apis import convert_excel_to_json
 
 
 COMPONENT_WORKBOOKS = (
+    "RDK8-comonents-catalog-draft.xlsx",
     "RDK8-components-catalog.xlsx",
     "RDK8-comonents-catalog.xlsx",
     "RDK8-components.xlsx",
