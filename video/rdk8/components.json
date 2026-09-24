@@ -5,468 +5,620 @@
   "version": "RDK8-1.0.0",
   "components": [
     {
+      "name": "AppArmor RDK Profiles",
+      "category": "Security",
+      "layer": "middleware",
+      "type": "2.4.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rdk-apparmor-profiles"
+    },
+    {
       "name": "AppGateway",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.1.3",
-      "url": "https://github.com/rdkcentral/entservices-appgateway/releases/tag/1.0.1.3"
+      "type": "1.0.1.3",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-appgateway"
     },
     {
       "name": "AvOutput",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.1.0",
-      "url": "https://github.com/rdkcentral/entservices-avoutput/releases/tag/1.1.0"
+      "type": "1.1.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-avoutput"
     },
     {
-      "name": "Bluetooth-core",
-      "category": "Device Control Protocols",
+      "name": "Bluetooth Manager",
+      "category": "Core Device Control Protocols",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.9",
-      "url": "https://github.com/rdkcentral/bluetooth/releases/tag/1.0.9"
+      "type": "1.0.9",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/bluetooth_mgr"
     },
     {
-      "name": "bluetooth manager",
-      "category": "Device Control Protocols",
+      "name": "bluetooth-core",
+      "category": "Core Device Control Protocols",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.9",
-      "url": "https://github.com/rdkcentral/bluetooth_mgr/releases/tag/1.0.9"
+      "type": "1.0.9",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/bluetooth"
     },
     {
-      "name": "Bluez",
-      "category": "Device Control Protocols",
-      "layer": "oss",
-      "type": "core",
-      "releaseTag": "5.48-r5",
-      "url": "https://www.bluez.org"
+      "name": "BlueZ",
+      "category": "Core Device Control Protocols",
+      "layer": "middleware",
+      "type": "5.48-r5",
+      "releaseTag": "core",
+      "url": "https://www.bluez.org/"
     },
     {
-      "name": "Breakpad",
-      "category": "Data Collection, Test and Diagnostic",
+      "name": "BreakPad",
+      "category": "Device Management & Diagnostics",
       "layer": "oss",
-      "type": "core",
-      "releaseTag": "1.0-r0",
-      "url": "https://github.com/google/breakpad"
+      "type": "1.0-r0",
+      "releaseTag": "core",
+      "url": "github.com/google/breakpad"
+    },
+    {
+      "name": "Casting",
+      "category": "Entertainment Services",
+      "layer": "middleware",
+      "type": "2.0.2",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-casting"
     },
     {
       "name": "cimplog",
-      "category": "Data Collection, Test and Diagnostic",
+      "category": "Core Utilities",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.0",
-      "url": "https://github.com/xmidt-org/cimplog"
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "github.com/xmidt-org/cimplog.git"
     },
     {
-      "name": "commonutilities",
-      "category": "System Start, Platform Management and misc utilities",
+      "name": "CJWT",
+      "category": "Core Utilities",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.5.3",
-      "url": "https://github.com/rdkcentral/common_utilities/releases/tag/1.5.3"
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://github.com/xmidt-org/cjwt"
+    },
+    {
+      "name": "Common Utilities",
+      "category": "Core Utilities",
+      "layer": "middleware",
+      "type": "1.5.3",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/common_utilities"
     },
     {
       "name": "Connectivity",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.5.1",
-      "url": "https://github.com/rdkcentral/entservices-connectivity/releases/tag/1.5.1"
+      "type": "1.5.1",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-connectivity"
     },
     {
-      "name": "Control Manager(video)",
+      "name": "Control Manager (video)",
       "category": "WPEFramework",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.1.11.1",
-      "url": "https://github.com/rdkcentral/control/releases/tag/1.1.11.1"
+      "type": "1.1.11.1",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/control"
+    },
+    {
+      "name": "crashupload",
+      "category": "Device Management & Diagnostics",
+      "layer": "middleware",
+      "type": "2.0.1",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/crashupload"
+    },
+    {
+      "name": "Data Collecting Agent for Telemetry",
+      "category": "Device Management & Diagnostics",
+      "layer": "middleware",
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://code.rdkcentral.com/r/plugins/gitiles/rdk/components/generic/dca"
     },
     {
       "name": "DBUS",
-      "category": "InterProcess Communications",
+      "category": "RPC",
       "layer": "oss",
-      "type": "core",
-      "releaseTag": "1.0.0",
-      "url": "https://www.freedesktop.org/wiki/Software/dbus"
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://www.freedesktop.org/wiki/Software/dbus/"
     },
     {
-      "name": "Device settings",
-      "category": "Remote Device Management",
+      "name": "Device Configuration Management Agent",
+      "category": "Device Management & Diagnostics",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.31.3",
-      "url": "https://github.com/rdkcentral/devicesettings/releases/tag/1.0.31.3"
+      "type": "2.0.3",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/dcm-agent"
     },
     {
-      "name": "dobby",
-      "category": "App Framework",
+      "name": "Device Settings",
+      "category": "Device Management & Diagnostics",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "3.16.2",
-      "url": "https://github.com/rdkcentral/Dobby/releases/tag/v3.16.2"
+      "type": "1.0.31.3",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/devicesettings"
     },
     {
-      "name": "dobby-thunderplugin",
-      "category": "App Framework",
+      "name": "Device Settings HAL",
+      "category": "Entertainment Services",
+      "layer": "vendor",
+      "type": "1.0.1",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rdk-halif-device_settings"
+    },
+    {
+      "name": "DeviceInfo",
+      "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "3.16.2",
-      "url": "https://github.com/rdkcentral/Dobby/releases/tag/v3.16.2"
+      "type": "1.1.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-deviceinfo"
+    },
+    {
+      "name": "DisplayInfo",
+      "category": "Entertainment Services",
+      "layer": "middleware",
+      "type": "1.1.2",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-displayinfo"
+    },
+    {
+      "name": "DisplaySettings",
+      "category": "Entertainment Services",
+      "layer": "middleware",
+      "type": "1.1.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-displaysettings"
+    },
+    {
+      "name": "Dobby",
+      "category": "Containerization & Application Management",
+      "layer": "middleware",
+      "type": "3.16.2",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/Dobby"
+    },
+    {
+      "name": "Dobby Thunder Plugin",
+      "category": "Containerization & Application Management",
+      "layer": "middleware",
+      "type": "3.16.2",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/Dobby"
+    },
+    {
+      "name": "DSM",
+      "category": "Containerization & Application Management",
+      "layer": "middleware",
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/DSM"
     },
     {
       "name": "Entservices APIs",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "3.4.2",
-      "url": "https://github.com/rdkcentral/entservices-apis/releases/tag/3.4.2"
-    },
-    {
-      "name": "entservices-deviceinfo",
-      "category": "Entertainment Services",
-      "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.1.0",
-      "url": "https://github.com/rdkcentral/entservices-deviceinfo/releases/tag/1.1.0"
-    },
-    {
-      "name": "entservices-displayinfo",
-      "category": "Entertainment Services",
-      "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.1.2",
-      "url": "https://github.com/rdkcentral/entservices-displayinfo/releases/tag/1.1.2"
-    },
-    {
-      "name": "entservices-displaysettings",
-      "category": "Entertainment Services",
-      "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.1.0",
-      "url": "https://github.com/rdkcentral/entservices-displaysettings/releases/tag/1.1.0"
-    },
-    {
-      "name": "Software Update",
-      "category": "Entertainment Services",
-      "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.10.0",
-      "url": "https://github.com/rdkcentral/entservices-softwareupdate/releases/tag/1.10.0"
-    },
-    {
-      "name": "Software Update",
-      "category": "Entertainment Services",
-      "layer": "middleware",
-      "type": "core",
-      "releaseTag": "2.0.2",
-      "url": "https://github.com/rdkcentral/entservices-xcast/releases/tag/2.0.2"
+      "type": "3.4.2",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-apis"
     },
     {
       "name": "FirmwareDownload",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.1",
-      "url": "https://github.com/rdkcentral/entservices-firmwaredownload/releases/tag/1.0.1"
+      "type": "1.0.1",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-firmwaredownload"
     },
     {
       "name": "FirmwareUpdate",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.2.0",
-      "url": "https://github.com/rdkcentral/entservices-firmwareupdate/releases/tag/1.2.0"
+      "type": "1.2.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-firmwareupdate"
+    },
+    {
+      "name": "GLIB2",
+      "category": "Core Utilities",
+      "layer": "oss",
+      "type": "2.35",
+      "releaseTag": "core",
+      "url": "https://gitlab.gnome.org/GNOME/glib"
+    },
+    {
+      "name": "GN (Ninja) (native)",
+      "category": "Build System/OE extensions/Testing",
+      "layer": "middleware",
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://gn.googlesource.com/gn/"
+    },
+    {
+      "name": "GST RDK Plugin",
+      "category": "VIDEO",
+      "layer": "middleware",
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/gst-plugins-rdk"
     },
     {
       "name": "Gstreamer Rialto Plugin",
-      "category": "Video",
+      "category": "VIDEO",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "0.17.0",
-      "url": "https://github.com/rdkcentral/rialto-gstreamer/releases/tag/v0.17.0"
+      "type": "0.17.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rialto-gstreamer"
     },
     {
       "name": "HDMICec",
-      "category": "Device Control Protocols",
+      "category": "Core Device Control Protocols",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.10",
-      "url": "https://github.com/rdkcentral/hdmicec/releases/tag/1.0.10"
-    },
-    {
-      "name": "iarmbus",
-      "category": "InterProcess Communications",
-      "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.3",
-      "url": "https://github.com/rdkcentral/iarmbus/releases/tag/1.0.3"
+      "type": "1.0.10",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/hdmicec"
     },
     {
       "name": "Infrastructure Services",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "3.23.0",
-      "url": "https://github.com/rdkcentral/entservices-infra/releases/tag/3.23.0"
+      "type": "3.23.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-infra"
+    },
+    {
+      "name": "HDMICec Sink",
+      "category": "Entertainment Services",
+      "layer": "middleware",
+      "type": "1.0.5",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-hdmicecsink"
+    },
+    {
+      "name": "HDMICec source",
+      "category": "Entertainment Services",
+      "layer": "middleware",
+      "type": "1.0.5",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-hdmicecsource"
+    },
+    {
+      "name": "JSONCPP",
+      "category": "Core Utilities",
+      "layer": "oss",
+      "type": "1.8.4",
+      "releaseTag": "core",
+      "url": "http://sourceforge.net/projects/jsoncpp/"
     },
     {
       "name": "libSysCallWrapper",
-      "category": "Security",
+      "category": "Core Utilities",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.3.3",
+      "type": "1.3.3",
+      "releaseTag": "core",
       "url": "https://github.com/rdkcentral/libSyscallWrapper"
-    },
-    {
-      "name": "libunpriv",
-      "category": "Security",
-      "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.2",
-      "url": "https://github.com/rdkcentral/rdk-libunpriv/releases/tag/1.0.2"
     },
     {
       "name": "MediaAndDrm",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.8.2",
-      "url": "https://github.com/rdkcentral/entservices-mediaanddrm/releases/tag/1.8.2"
+      "type": "1.8.2",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-mediaanddrm"
     },
     {
       "name": "memcr",
-      "category": "System Start, Platform Management and misc utilities",
+      "category": "Utilities",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.3",
+      "type": "1.0.3",
+      "releaseTag": "core",
       "url": "https://github.com/LibertyGlobal/memcr"
     },
     {
-      "name": "new RDK AppManagers",
-      "category": "App Framework",
-      "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.0",
-      "url": "https://github.com/rdkcentral/entservices-appmanagers"
+      "name": "networkmanager-plugin",
+      "category": "Networking",
+      "layer": "oss",
+      "type": "v2.0.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/networkmanager"
     },
     {
       "name": "OpenSSL",
       "category": "Security",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "3.0.15",
-      "url": "https://www.openssl.org"
+      "type": "3.0.15",
+      "releaseTag": "core",
+      "url": "https://www.openssl.org/"
     },
     {
       "name": "PackageManager",
       "category": "Thunder",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "4.4.1",
-      "url": "https://github.com/rdkcentral/PackageManager/releases/tag/R4.4.1"
+      "type": "4.4.1",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/PackageManager"
+    },
+    {
+      "name": "Parodus",
+      "category": "Device Management & Diagnostics",
+      "layer": "middleware",
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "github.com/Comcast/libparodus.git"
     },
     {
       "name": "Peripherals",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.4.0",
-      "url": "https://github.com/rdkcentral/entservices-peripherals/releases/tag/1.4.0"
+      "type": "1.4.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-peripherals"
     },
     {
       "name": "Protobuf",
-      "category": "InterProcess Communications",
+      "category": "RPC",
       "layer": "oss",
-      "type": "core",
-      "releaseTag": "3.19.6",
+      "type": "3.19.6",
+      "releaseTag": "core",
       "url": "https://github.com/protocolbuffers/protobuf"
     },
     {
       "name": "RBUS",
-      "category": "InterProcess Communications",
+      "category": "RPC",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "2.12.0",
-      "url": "https://github.com/rdkcentral/rbus/releases/tag/v2.12.0"
+      "type": "2.12.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rbus"
     },
     {
       "name": "RDK Logger",
-      "category": "Data Collection, Test and Diagnostic",
-      "layer": "middleware",
-      "type": "core",
-      "releaseTag": "3.1.0",
-      "url": "https://github.com/rdkcentral/rdk_logger/releases/tag/v3.1.0"
+      "category": "Core Utilities",
+      "layer": "oss",
+      "type": "3.1.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rdk_logger"
+    },
+    {
+      "name": "RDK Perf",
+      "category": "Core Utilities",
+      "layer": "oss",
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rdkperf"
     },
     {
       "name": "RDK V Firmware Upgrader",
-      "category": "Device Control Protocols",
+      "category": "Core Device Control Protocols",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.6.1",
-      "url": "https://github.com/rdkcentral/rdkfwupdater/releases/tag/1.6.1"
+      "type": "1.6.1",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rdkfwupdater"
     },
     {
       "name": "RDK Window Manager",
-      "category": "System Start, Platform Management and misc utilities",
+      "category": "Utilities",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "0.3.0.0",
-      "url": "https://github.com/rdkcentral/rdk-window-manager/releases/tag/0.3.0.0"
+      "type": "0.3.0.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdk-e/rdk-window-manager"
     },
     {
-      "name": "rdkcertconfig",
+      "name": "RDK WPA Supplicant Config",
       "category": "Security",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.1",
-      "url": "https://github.com/rdkcentral/rdk-cert-config/releases/tag/1.0.1"
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/meta-rdk-video/"
     },
     {
-      "name": "Remote Feature Control",
-      "category": "Remote Device Management",
+      "name": "Remote Debugger",
+      "category": "Core Utilities",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.2.1",
-      "url": "https://github.com/rdkcentral/rfc/releases/tag/1.2.1"
+      "type": "1.2.9",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/remote_debugger"
+    },
+    {
+      "name": "Remote Feature control",
+      "category": "Device Management & Diagnostics",
+      "layer": "middleware",
+      "type": "1.2.1",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rfc"
     },
     {
       "name": "Rialto",
-      "category": "Video",
+      "category": "VIDEO",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "0.19.0",
-      "url": "https://github.com/rdkcentral/rialto/releases/tag/v0.19.0"
+      "type": "0.19.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rialto"
     },
     {
       "name": "Rialto OCDM",
-      "category": "Video",
+      "category": "VIDEO",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "0.10.0",
+      "type": "0.10.0",
+      "releaseTag": "core",
       "url": "https://github.com/rdkcentral/rialto-ocdm"
     },
     {
       "name": "Rialto Server",
-      "category": "Video Services",
+      "category": "VIDEO Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "0.19.0",
-      "url": "https://github.com/rdkcentral/rialto/releases/tag/v0.19.0"
+      "type": "0.19.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/rialto"
     },
     {
-      "name": "Runtime",
+      "name": "Ripple",
+      "category": "Containerization & Application Management",
+      "layer": "middleware",
+      "type": "1.19.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/Ripple"
+    },
+    {
+      "name": "RunTime",
       "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.2.3",
-      "url": "https://github.com/rdkcentral/entservices-runtime/releases/tag/1.2.3"
+      "type": "1.2.3",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-runtime"
     },
     {
-      "name": "sysint",
-      "category": "System Start, Platform Management and misc utilities",
+      "name": "SoftwareUpdate",
+      "category": "Entertainment Services",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "4.5.2v2",
-      "url": "https://github.com/rdkcentral/sysint/releases/tag/4.5.2v2"
+      "type": "1.10.0",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/entservices-softwareupdate"
+    },
+    {
+      "name": "SysMonTools",
+      "category": "Utilities",
+      "layer": "middleware",
+      "type": "1.0.8",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/sys_mon_tools"
     },
     {
       "name": "System Time Manager",
-      "category": "System Start, Platform Management and misc utilities",
+      "category": "System",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.5.1",
-      "url": "https://github.com/rdkcentral/systemtimemgr/releases/tag/1.5.1"
+      "type": "1.5.1",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/systemtimemgr"
     },
     {
       "name": "Systemd",
-      "category": "App Framework",
+      "category": "Containerization & Application Management",
       "layer": "oss",
-      "type": "core",
-      "releaseTag": "230",
-      "url": "https://systemd.io"
+      "type": "230",
+      "releaseTag": "core",
+      "url": "https://systemd.io/"
     },
     {
       "name": "telemetry",
-      "category": "Data Collection, Test and Diagnostic",
+      "category": "Device Management & Diagnostics",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.8.5",
-      "url": "https://github.com/rdkcentral/telemetry/releases/tag/1.8.5"
+      "type": "1.8.5",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/telemetry"
     },
     {
       "name": "ThunderJS",
       "category": "Thunder",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.0",
+      "type": "1.0.0",
+      "releaseTag": "core",
       "url": "https://github.com/rdkcentral/ThunderJS"
     },
     {
       "name": "trower-base64",
-      "category": "System Start, Platform Management and misc utilities",
+      "category": "Core Utilities",
       "layer": "oss",
-      "type": "core",
-      "releaseTag": "1.0.0",
-      "url": "https://github.com/Comcast/trower-base64"
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "github.com/Comcast/trower-base64.git"
+    },
+    {
+      "name": "ucresolv",
+      "category": "Core Utilities",
+      "layer": "middleware",
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "github.com/Comcast/libucresolv.git"
     },
     {
       "name": "Wayland",
       "category": "Display/Graphics",
       "layer": "oss",
-      "type": "core",
-      "releaseTag": "1.20.0",
-      "url": "https://wayland.freedesktop.org"
+      "type": "1.20.0",
+      "releaseTag": "core",
+      "url": "https://wayland.freedesktop.org/"
+    },
+    {
+      "name": "WayMetric",
+      "category": "Utilities",
+      "layer": "middleware",
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://code.rdkcentral.com/r/components/opensource/waymetric"
     },
     {
       "name": "wdmp-c (WebPA Data model parser)",
-      "category": "Remote Device Management",
+      "category": "Core Utilities",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.0",
+      "type": "1.0.0",
+      "releaseTag": "core",
       "url": "https://github.com/xmidt-org/wdmp-c"
+    },
+    {
+      "name": "WebConfig",
+      "category": "Device Management & Diagnostics",
+      "layer": "middleware",
+      "type": "1.1.0",
+      "releaseTag": "core",
+      "url": "https://github.com/xmidt-org/webcfg"
     },
     {
       "name": "Westeros",
       "category": "Display/Graphics",
-      "layer": "Vendor",
-      "type": "core",
-      "releaseTag": "1.01.64",
-      "url": "https://code.rdkcentral.com/r/components/opensource/westeros"
+      "layer": "vendor",
+      "type": "1.01.64",
+      "releaseTag": "core",
+      "url": "git://code.rdkcentral.com/r/components/opensource/westeros"
     },
     {
       "name": "WPE Client Libraries",
-      "category": "WPEFramework",
+      "category": "RPC",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "4.4.2",
+      "type": "4.4.2",
+      "releaseTag": "core",
       "url": "https://github.com/WebPlatformForEmbedded/libwpe"
     },
     {
-      "name": "WPEFramework",
-      "category": "Video",
+      "name": "WPE WebKit",
+      "category": "Thunder",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "4.4.3",
-      "url": "https://github.com/rdkcentral/Thunder/releases/tag/R4.4.3"
+      "type": "2.38.8",
+      "releaseTag": "core",
+      "url": "https://github.com/WebPlatformForEmbedded/WPEWebKit"
+    },
+    {
+      "name": "WPEFramework",
+      "category": "VIDEO",
+      "layer": "middleware",
+      "type": "4.4.3",
+      "releaseTag": "core",
+      "url": "https://github.com/rdkcentral/Thunder"
     },
     {
       "name": "WPEFramework UI",
-      "category": "WPEFramework",
+      "category": "Thunder",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "1.0.0",
+      "type": "1.0.0",
+      "releaseTag": "core",
       "url": "https://github.com/rdkcentral/ThunderUI"
     },
     {
-      "name": "WPE WebKit",
-      "category": "WPEFramework",
+      "name": "wrp-c (msgpack conversion)",
+      "category": "Core Utilities",
       "layer": "middleware",
-      "type": "core",
-      "releaseTag": "2.46",
-      "url": "https://github.com/WebPlatformForEmbedded/WPEWebKit"
+      "type": "1.0.0",
+      "releaseTag": "core",
+      "url": "https://github.com/xmidt-org/wrp-c"
     }
   ]
 }
