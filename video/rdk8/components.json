@@ -66,7 +66,7 @@
       "layer": "oss",
       "type": "core",
       "releaseTag": "1.0-r0",
-      "url": "github.com/google/breakpad"
+      "url": "https://github.com/google/breakpad"
     },
     {
       "name": "Casting",
@@ -82,7 +82,7 @@
       "layer": "middleware",
       "type": "core",
       "releaseTag": "1.0.0",
-      "url": "github.com/xmidt-org/cimplog.git"
+      "url": "https://github.com/xmidt-org/cimplog.git"
     },
     {
       "name": "CJWT",
@@ -378,7 +378,7 @@
       "layer": "middleware",
       "type": "core",
       "releaseTag": "1.0.0",
-      "url": "github.com/Comcast/libparodus.git"
+      "url": "https://github.com/Comcast/libparodus.git"
     },
     {
       "name": "Peripherals",
@@ -562,7 +562,7 @@
       "layer": "oss",
       "type": "core",
       "releaseTag": "1.0.0",
-      "url": "github.com/Comcast/trower-base64.git"
+      "url": "https://github.com/Comcast/trower-base64.git"
     },
     {
       "name": "ucresolv",
@@ -570,7 +570,7 @@
       "layer": "middleware",
       "type": "core",
       "releaseTag": "1.0.0",
-      "url": "github.com/Comcast/libucresolv.git"
+      "url": "https://github.com/Comcast/libucresolv.git"
     },
     {
       "name": "Wayland",
@@ -610,7 +610,7 @@
       "layer": "vendor",
       "type": "core",
       "releaseTag": "1.01.64",
-      "url": "git://code.rdkcentral.com/r/components/opensource/westeros"
+      "url": "https://code.rdkcentral.com/r/components/opensource/westeros"
     },
     {
       "name": "WPE Client Libraries",
