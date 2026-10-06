@@ -215,25 +215,21 @@ EXPLORE_SECTION = """
       <span class="ql-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="1.5"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/></svg></span>
       <div class="ql-title">Component Catalog</div>
       <div class="ql-desc">A list of RDK components categorized as core and optional.</div>
-      <div class="ql-cta">Explore &rarr;</div>
     </a>
     <a class="quicklink-card" href="north-bound-apis.html" style="--ql-color:var(--rdk-green);">
       <span class="ql-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5v8l-9 5-9-5V8z"/><path d="M12 12v9M3 8l9 4 9-4"/></svg></span>
       <div class="ql-title">North-bound APIs</div>
       <div class="ql-desc">APIs that can be used by applications to access system services and resources.</div>
-      <div class="ql-cta">Explore &rarr;</div>
     </a>
     <a class="quicklink-card" href="south-bound-apis.html" style="--ql-color:var(--rdk-amber);">
       <span class="ql-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
       <div class="ql-title">South-bound APIs</div>
       <div class="ql-desc">Hardware Abstraction Layer (HAL) specifications to aid silicon platform porting.</div>
-      <div class="ql-cta">Explore &rarr;</div>
     </a>
     <a class="quicklink-card" href="hardware-compatibility.html" style="--ql-color:var(--rdk-orange);">
       <span class="ql-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
       <div class="ql-title">Compatibility Specifications</div>
       <div class="ql-desc">Specifications that outline the minimal hardware configurations to run Core RDK.</div>
-      <div class="ql-cta">Explore &rarr;</div>
     </a>
   </div>
 </section>
