@@ -186,9 +186,10 @@ function halRowHtml(name) {
 
 function renderHalTable(filterText) {
   const q = (filterText || '').trim().toLowerCase();
-  const rows = halNames.filter(n => !q || n.toLowerCase().includes(q));
+  const available = halNames.filter(n => repoMap[n] && repoMap[n].repo !== 'TBD');
+  const rows = available.filter(n => !q || n.toLowerCase().includes(q));
   document.getElementById('hal-table-body').innerHTML = rows.map(halRowHtml).join('');
-  document.getElementById('hal-count').textContent = `${rows.length} of ${halNames.length} HAL interfaces`;
+  document.getElementById('hal-count').textContent = `${rows.length} of ${available.length} HAL interfaces`;
   document.querySelectorAll('.dml-btn').forEach(btn => {
     btn.addEventListener('click', () => loadHal(btn.dataset.name));
   });
@@ -308,9 +309,8 @@ EXTRA_CSS = """
 
 def build_page() -> str:
     body = f'''
-{render_hero("South Bound APIs", "South Bound APIs",
-    "The HAL and vendor-facing interfaces RDK-B exposes downward — the rdkb-halif-* "
-    "contracts between middleware and SoC/BSP. Click a HAL interface below to load its API spec.",
+{render_hero("South-bound APIs", "South-bound APIs",
+    "Hardware Abstraction Layer (HAL) specifications to aid silicon platform porting.",
     compact=True, visual_key="sbi")}
 
 <section class="tight-top">
@@ -330,7 +330,7 @@ def build_page() -> str:
   <div id="hal-panel"></div>
 </section>
 '''
-    head_extra = "<title>South Bound APIs — RDK-B Core Broadband</title>\n" + EXTRA_CSS + SCRIPT
+    head_extra = "<title>South-bound APIs — RDK-B Core Broadband</title>\n" + EXTRA_CSS + SCRIPT
     return render_page("sbi", head_extra, body)
 
 

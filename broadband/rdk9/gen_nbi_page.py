@@ -277,9 +277,9 @@ function componentRowHtml(c) {
 
 function renderComponentTable(filterText) {
   const q = (filterText || '').trim().toLowerCase();
-  const rows = allComponents.filter(c => !q || c.name.toLowerCase().includes(q) || (c.category || '').toLowerCase().includes(q));
+  const rows = allComponents.filter(c => repoMap[c.name] && (!q || c.name.toLowerCase().includes(q) || (c.category || '').toLowerCase().includes(q)));
   document.getElementById('component-table-body').innerHTML = rows.map(componentRowHtml).join('');
-  document.getElementById('component-count').textContent = `${rows.length} of ${allComponents.length} components`;
+  document.getElementById('component-count').textContent = `${rows.length} of ${allComponents.filter(c => repoMap[c.name]).length} components`;
   document.querySelectorAll('.dml-btn').forEach(btn => {
     btn.addEventListener('click', () => loadDml(btn.dataset.name));
   });
@@ -398,8 +398,8 @@ EXTRA_CSS = """
 
 def build_page() -> str:
     body = f'''
-{render_hero("North Bound High Level APIs", "North Bound High Level APIs",
-    "The operator- and cloud-facing data model each component exposes upward. Click a component below to load its DML definition.",
+{render_hero("North-bound APIs", "North-bound APIs",
+    "APIs that can be used by applications to access system services and resources.",
     compact=True, visual_key="nbi")}
 
 <section class="tight-top">
@@ -419,7 +419,7 @@ def build_page() -> str:
   <div id="dml-panel"></div>
 </section>
 '''
-    head_extra = "<title>North Bound High Level APIs — RDK-B Core Broadband</title>\n" + EXTRA_CSS + SCRIPT
+    head_extra = "<title>North-bound APIs — RDK-B Core Broadband</title>\n" + EXTRA_CSS + SCRIPT
     return render_page("nbi", head_extra, body)
 
 

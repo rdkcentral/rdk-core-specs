@@ -39,15 +39,15 @@ COMPONENTS_URL = "components/"
 NAV_LINKS = [
     ("link", "about", "Home", "index.html", False),
 
-    ("group", "nbi-group", "RDK9 North Bound APIs", [
-        ("link", "nbi", "RDK9 List of North Bound High Level APIs", "north-bound-apis.html", False),
-        ("link", "nbi-lowlevel", "RDK9 List of North Bound Low Level APIs", "north-bound-lowlevel-apis.html", False),
+    ("group", "nbi-group", "North-bound APIs", [
+        ("link", "nbi", "North Bound High Level APIs", "north-bound-apis.html", False),
+        ("link", "nbi-lowlevel", "North Bound Low Level APIs", "north-bound-lowlevel-apis.html", False),
     ]),
-    ("group", "sbi-group", "RDK9 South Bound APIs", [
-        ("link", "sbi", "RDK9 List of South Bound APIs", "south-bound-apis.html", False),
+    ("group", "sbi-group", "South-bound APIs", [
+        ("link", "sbi", "South Bound APIs", "south-bound-apis.html", False),
     ]),
-    ("link", "hwcompat", "RDK9 Hardware Compatibility", "hardware-compatibility.html", False),
-    ("link", "components", "Core RDK Components", COMPONENTS_URL, True),
+    ("link", "hwcompat", "Compatibility Specifications", "hardware-compatibility.html", False),
+    ("link", "components", "Component Catalog", COMPONENTS_URL, True),
 ]
 
 SHARED_CSS = """
@@ -152,7 +152,7 @@ SHARED_CSS = """
     color: #fff; padding: 68px 44px 52px; position: relative; overflow: hidden;
   }
   .hero-flex { display: flex; align-items: center; gap: 44px; max-width: 1520px; }
-  .hero-inner { max-width: 640px; flex: 1 1 auto; min-width: 0; }
+  .hero-inner { max-width: 1100px; flex: 1 1 auto; min-width: 0; }
   .hero-visual { flex: 0 0 540px; max-width: 540px; display: flex; justify-content: flex-end; align-items: center; margin-left: auto; overflow: hidden; }
   .hero-visual img { width: 100%; max-width: 540px; height: auto; object-fit: contain; mix-blend-mode: lighten; opacity: .92; -webkit-mask-image: radial-gradient(ellipse 78% 78% at 50% 50%, #000 62%, transparent 100%); mask-image: radial-gradient(ellipse 78% 78% at 50% 50%, #000 62%, transparent 100%); }
   @media (max-width: 1300px) { .hero-visual { flex-basis: 420px; max-width: 420px; } .hero-visual img { max-width: 420px; } }
@@ -160,7 +160,7 @@ SHARED_CSS = """
 
   .eyebrow { display: inline-block; font-family: "Inter", "Segoe UI", sans-serif; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.10em; text-transform: uppercase; color: #4ab8f5; border: none; background: none; border-radius: 0; padding: 0; margin-bottom: 14px; }
   .hero h1 { font-size: clamp(2.0rem, 4vw, 3.0rem); line-height: 1.08; font-weight: 800; letter-spacing: -0.02em; color: #fff; max-width: 820px; }
-  .hero .lede { color: #dce6f5; font-size: 1.08rem; max-width: 640px; margin-top: 16px; }
+  .hero .lede { color: #dce6f5; font-size: 1.08rem; max-width: 1100px; margin-top: 16px; }
   .badge-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
   .badge { display: inline-block; margin: 0 10px 10px 0; font-size: 0.8rem; font-weight: 600; padding: 7px 14px; border-radius: 999px; background: rgba(255,255,255,0.07); color: #dbe4f3; border: 1px solid rgba(255,255,255,0.12); }
   .stats {
@@ -191,7 +191,7 @@ SHARED_CSS = """
   section.tight-top { padding-top: 52px; }
   @media (max-width: 760px) { section { padding: 40px 20px; } }
   .section-head { margin-bottom: 34px; }
-  .section-head .eyebrow-lt { font-family: "JetBrains Mono", monospace; font-size: 0.74rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--middleware); font-weight: 600; margin-bottom: 9px; display: block; }
+  .section-head .eyebrow-lt { font-family: "Inter", "Segoe UI", sans-serif; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--middleware); font-weight: 700; margin-bottom: 9px; display: block; white-space: nowrap; }
   .section-head h2 { font-size: 2rem; font-weight: 800; letter-spacing: -0.025em; }
   .section-head p { margin-top: 11px; font-size: 1.02rem; max-width: 680px; }
   .callout { max-width: 820px; background: linear-gradient(135deg, #eef2ff 0%, #f3f0ff 100%); border: 1px solid #d3dbfb; border-left: 4px solid var(--middleware); border-radius: 10px; padding: 22px 26px; margin: 18px 0; }
@@ -303,7 +303,7 @@ SHARED_CSS = """
   table.def-table td { color: var(--ink); line-height: 1.6; border-right: 1px solid var(--border); }
   table.def-table td:last-child { border-right: none; }
   table.def-table td:first-child {
-    color: var(--ink); font-weight: 700; font-family: "Inter", "Segoe UI", sans-serif;
+    color: var(--ink); font-weight: 400; font-family: "Inter", "Segoe UI", sans-serif;
     font-size: 0.92rem; width: 26%; min-width: 180px;
   }
   table.def-table td.mono { font-family: "JetBrains Mono", monospace; font-size: 0.84rem; color: var(--muted); font-weight: 400; }
@@ -544,9 +544,9 @@ def render_hero(eyebrow: str, title: str, lede: str, badges_html: str = "", comp
   <div class="hero-flex">
     <div class="hero-inner">
       {eyebrow_html}
+      {badges}
       <h1{title_style}>{esc(title)}</h1>
       <p class="lede">{esc(lede)}</p>
-      {badges}
     </div>
     {visual}
   </div>
@@ -652,7 +652,7 @@ def render_topnav(active_id: str, path_prefix: str = "") -> str:
                 # link down into components/ from wherever we are.
                 cta_href = "." if active_id == "components" else path_prefix + COMPONENTS_URL
                 cta_cls = "cta active" if active_id == "components" else "cta"
-                links_html.append(f'<a class="{cta_cls}" href="{esc(cta_href)}">Core RDK Components ↗</a>')
+                links_html.append(f'<a class="{cta_cls}" href="{esc(cta_href)}">Component Catalog</a>')
         else:  # "group"
             _, group_id, group_label, children = entry
             child_ids = {c[1] for c in children}
