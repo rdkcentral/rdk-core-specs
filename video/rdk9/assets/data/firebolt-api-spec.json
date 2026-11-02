@@ -1886,9 +1886,9 @@
           "value": {
             "type": "list",
             "items": [
-              "enabled - bool preferredLangua",
+              "enabled - bool preferredLanguages",
               {
-                "text": "ges - list of strings",
+                "text": "list of strings",
                 "items": [
                   "[] (if not initialized)",
                   "list of one or more ISO 639-2/B"
