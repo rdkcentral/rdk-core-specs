@@ -114,7 +114,7 @@
       "name": "DBUS",
       "category": "InterProcess Communications",
       "layer": "oss",
-      "releaseTag": "develop",
+      "releaseTag": "1.14.8",
       "url": [
         "https://dbus.freedesktop.org/releases/dbus/dbus-1.14.8.tar.xz"
       ],
