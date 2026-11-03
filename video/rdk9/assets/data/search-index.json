@@ -1022,7 +1022,7 @@
     },
     {
       "title": "DBUS",
-      "text": "InterProcess Communications · oss layer · release develop.",
+      "text": "InterProcess Communications · oss layer · release 1.14.8.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1070,7 +1070,7 @@
     },
     {
       "title": "Gstreamer Rialto Plugin",
-      "text": "Video · RDK layer · release develop.",
+      "text": "Video · RDK layer · release master.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1141,12 +1141,6 @@
       "url": "component-catalog.html"
     },
     {
-      "title": "PackageManager",
-      "text": "Thunder · RDK layer · release develop.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
       "title": "Peripherals",
       "text": "Entertainment Services · RDK layer · release develop.",
       "category": "Components",
@@ -1202,7 +1196,7 @@
     },
     {
       "title": "Rialto OCDM",
-      "text": "Video · RDK layer · release develop.",
+      "text": "Video · RDK layer · release master.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1268,7 +1262,7 @@
     },
     {
       "title": "wdmp-c (WebPA Data model parser)",
-      "text": "Remote Device Management · RDK layer · release develop.",
+      "text": "Remote Device Management · RDK layer · release master.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1345,12 +1339,6 @@
       "url": "component-catalog.html"
     },
     {
-      "title": "cpuprocanalyzer",
-      "text": "Device Management & Diagnostics · RDK layer · release rdk-next.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
       "title": "crashupload",
       "text": "Device Management & Diagnostics · RDK layer · release develop.",
       "category": "Components",
@@ -1371,18 +1359,6 @@
     {
       "title": "dcmjsonparser",
       "text": "Device Management & Diagnostics · RDK layer · release rdk-next.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
-      "title": "deepsleep-manager-headers",
-      "text": "Entertainment Services · RDK layer · release develop.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
-      "title": "devicesettings-hal-headers",
-      "text": "Entertainment Services · RDK layer · release develop.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1693,14 +1669,14 @@
       "url": "component-catalog.html"
     },
     {
-      "title": "media-utils-headers",
-      "text": "Entertainment Services · RDK layer · release develop.",
+      "title": "memcapture",
+      "text": "Device Management & Diagnostics · RDK layer · release develop.",
       "category": "Components",
       "url": "component-catalog.html"
     },
     {
-      "title": "memcapture",
-      "text": "Device Management & Diagnostics · RDK layer · release develop.",
+      "title": "Messagecontrol",
+      "text": "Entertainment Services · RDK layer · release develop.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1736,7 +1712,7 @@
     },
     {
       "title": "ralf-utils",
-      "text": "Data Collection, Test and Diagnostic · RDK layer · release develop.",
+      "text": "Data Collection, Test and Diagnostic · RDK layer · release main.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1755,12 +1731,6 @@
     {
       "title": "rdknativescript",
       "text": "App Framework · RDK layer · release develop.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
-      "title": "rdkshell",
-      "text": "App Framework · RDK layer · release master.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1843,12 +1813,6 @@
       "url": "component-catalog.html"
     },
     {
-      "title": "tdk",
-      "text": "Data Collection, Test and Diagnostic · RDK layer · release rdk-next.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
       "title": "tenablehdcp",
       "text": "Thunder · RDK layer · release rdk-next.",
       "category": "Components",
@@ -1879,12 +1843,6 @@
       "url": "component-catalog.html"
     },
     {
-      "title": "tvsettings-hal-headers",
-      "text": "Entertainment Services · RDK layer · release develop.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
       "title": "ucresolv",
       "text": "System Start, Platform Management and misc utilities · RDK layer · release master.",
       "category": "Components",
@@ -1911,12 +1869,6 @@
     {
       "title": "webconfig-framework",
       "text": "Remote Device Management · RDK layer · release develop.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
-      "title": "webkitbrowser-plugin",
-      "text": "Thunder · RDK layer · release rev-857eff8.",
       "category": "Components",
       "url": "component-catalog.html"
     },

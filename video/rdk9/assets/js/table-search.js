@@ -27,8 +27,18 @@
   const stripReleasePath = (value) => String(value).replace(/\/releases\/tag\/[^/]+\/?$/, '');
 
   const renderCell = (value, column) => {
+    if (column.kind === 'detail') {
+      const detail = String(value === null || value === undefined ? '' : value).trim();
+      if (!detail) return '<td>Work in progress</td>';
+      if (/^https?:\/\//i.test(detail)) {
+        return `<td><a href="${escapeHtml(value)}" target="_blank" rel="noopener">View Details</a></td>`;
+      }
+      return `<td>${escapeHtml(value)}</td>`;
+    }
     if (column.kind === 'link') {
-      const url = column.strip ? stripReleasePath(value) : value;
+      const source = String(value === null || value === undefined ? '' : value).trim();
+      if (!source) return '<td>Work in progress</td>';
+      const url = column.strip ? stripReleasePath(source) : source;
       return `<td><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(url)}</a></td>`;
     }
     if (column.kind === 'pill') {
