@@ -68,7 +68,8 @@
       "releaseTag": "develop",
       "url": [
         "https://github.com/rdkcentral/entservices-casting/tree/develop"
-      ]
+      ],
+      "View Details": "Component Under Review"
     },
     {
       "name": "cimplog",
@@ -108,7 +109,7 @@
       "url": [
         "https://github.com/rdkcentral/control/tree/develop"
       ],
-      "View Details": "Document Under Review"
+      "View Details": "https://github.com/rdkcentral/control/blob/develop/README.md"
     },
     {
       "name": "DBUS",
@@ -136,7 +137,8 @@
       "layer": "RDK",
       "type": "core",
       "releaseTag": "develop",
-      "url": "https://github.com/rdkcentral/entservices-deviceanddisplay/tree/develop"
+      "url": "https://github.com/rdkcentral/entservices-deviceanddisplay/tree/develop",
+      "View Details": "Component Under Review"
     },
     {
       "name": "Dobby",
@@ -175,7 +177,8 @@
       "releaseTag": "develop",
       "url": [
         "https://github.com/rdkcentral/entservices-firmwaredownload/tree/develop"
-      ]
+      ],
+      "View Details": "https://github.com/rdkcentral/entservices-firmwaredownload/blob/develop/ARCHITECTURE.md"
     },
     {
       "name": "FirmwareUpdate",
@@ -195,7 +198,7 @@
       "url": [
         "https://github.com/rdkcentral/rialto-gstreamer/tree/master"
       ],
-      "View Details": "Document Under Review"
+      "View Details": "https://github.com/rdkcentral/rialto-gstreamer/blob/master/README.md"
     },
     {
       "name": "HDMI CEC Header",
@@ -234,7 +237,8 @@
       "url": [
         "https://github.com/rdkcentral/entservices-infra/tree/develop"
       ],
-      "releaseTag": "develop"
+      "releaseTag": "develop",
+      "View Details": "Component Under Review"
     },
     {
       "name": "InputOutput",
@@ -243,7 +247,8 @@
       "url": [
         "https://github.com/rdkcentral/entservices-inputoutput/tree/develop"
       ],
-      "releaseTag": "develop"
+      "releaseTag": "develop",
+      "View Details": "Component Under Review"
     },
     {
       "name": "libSysCallWrapper",
@@ -272,7 +277,8 @@
       "url": [
         "https://github.com/rdkcentral/entservices-mediaanddrm/tree/develop"
       ],
-      "releaseTag": "develop"
+      "releaseTag": "develop",
+      "View Details": "Component Under Review"
     },
     {
       "name": "memcr",
@@ -311,7 +317,8 @@
       "url": [
         "https://github.com/rdkcentral/entservices-peripherals/tree/develop"
       ],
-      "releaseTag": "develop"
+      "releaseTag": "develop",
+      "View Details": "Component Under Review"
     },
     {
       "name": "Protobuf",

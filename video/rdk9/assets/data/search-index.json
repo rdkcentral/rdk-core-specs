@@ -1327,12 +1327,6 @@
       "url": "component-catalog.html"
     },
     {
-      "title": "cobalt",
-      "text": "App Framework · RDK layer · release 27.lts.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
       "title": "cpeabs",
       "text": "System Start, Platform Management and misc utilities · RDK layer · release main.",
       "category": "Components",
@@ -1345,26 +1339,8 @@
       "url": "component-catalog.html"
     },
     {
-      "title": "dca",
-      "text": "Device Management & Diagnostics · RDK layer · release rdk-next.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
       "title": "dcmd",
       "text": "Device Management & Diagnostics · RDK layer · release develop.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
-      "title": "dcmjsonparser",
-      "text": "Device Management & Diagnostics · RDK layer · release rdk-next.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
-      "title": "dvbsubdecoder",
-      "text": "Video · RDK layer · release develop.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1657,12 +1633,6 @@
       "url": "component-catalog.html"
     },
     {
-      "title": "lxccpid",
-      "text": "App Framework · RDK layer · release master.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
       "title": "media-utils",
       "text": "Data Collection, Test and Diagnostic · RDK layer · release develop.",
       "category": "Components",
@@ -1771,12 +1741,6 @@
       "url": "component-catalog.html"
     },
     {
-      "title": "residentui",
-      "text": "App Framework · RDK layer · release rdk-next.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
       "title": "rtcore",
       "text": "InterProcess Communications · RDK layer · release rtcore.",
       "category": "Components",
@@ -1809,12 +1773,6 @@
     {
       "title": "systimemgrfactory",
       "text": "Device Management & Diagnostics · RDK layer · release develop.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
-      "title": "tenablehdcp",
-      "text": "Thunder · RDK layer · release rdk-next.",
       "category": "Components",
       "url": "component-catalog.html"
     },
@@ -1881,12 +1839,6 @@
     {
       "title": "wpeframework-extensions",
       "text": "Thunder · RDK layer · release R4_4.",
-      "category": "Components",
-      "url": "component-catalog.html"
-    },
-    {
-      "title": "wpeframework-ocdm-clearkey",
-      "text": "Thunder · RDK layer · release R2.",
       "category": "Components",
       "url": "component-catalog.html"
     },

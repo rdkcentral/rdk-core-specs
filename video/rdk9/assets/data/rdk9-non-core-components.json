@@ -31,7 +31,8 @@
       "category": "Security",
       "layer": "RDK",
       "releaseTag": "develop",
-      "url": "https://github.com/rdkcentral/breakpad_wrapper/tree/develop"
+      "url": "https://github.com/rdkcentral/breakpad_wrapper/tree/develop",
+      "View Details": "https://github.com/rdkcentral/breakpad_wrapper/blob/develop/openspec/project.md"
     },
     {
       "name": "cjwt",
@@ -40,13 +41,6 @@
       "releaseTag": "main",
       "url": "https://github.com/xmidt-org/cjwt/tree/main",
       "View Details": "https://github.com/xmidt-org/cjwt/blob/main/README.md"
-    },
-    {
-      "name": "cobalt",
-      "category": "App Framework",
-      "layer": "RDK",
-      "releaseTag": "27.lts",
-      "url": "https://github.com/youtube/cobalt/tree/27.lts"
     },
     {
       "name": "cpeabs",
@@ -65,13 +59,6 @@
       "View Details": "https://github.com/rdkcentral/crashupload/blob/develop/README.md"
     },
     {
-      "name": "dca",
-      "category": "Device Management & Diagnostics",
-      "layer": "RDK",
-      "releaseTag": "rdk-next",
-      "url": "https://code.rdkcentral.com/r/plugins/gitiles/rdk/components/generic/dca/+/rdk-next/"
-    },
-    {
       "name": "dcmd",
       "category": "Device Management & Diagnostics",
       "layer": "RDK",
@@ -80,25 +67,12 @@
       "View Details": "https://github.com/rdkcentral/dcm-agent/blob/develop/README.md"
     },
     {
-      "name": "dcmjsonparser",
-      "category": "Device Management & Diagnostics",
-      "layer": "RDK",
-      "releaseTag": "rdk-next",
-      "url": "https://code.rdkcentral.com/r/plugins/gitiles/rdk/components/generic/dcm/+/rdk-next/"
-    },
-    {
-      "name": "dvbsubdecoder",
-      "category": "Video",
-      "layer": "RDK",
-      "releaseTag": "develop",
-      "url": "https://github.com/rdkcentral/subtec-app/tree/develop"
-    },
-    {
       "name": "entservices-account",
       "category": "Entertainment Services",
       "layer": "RDK",
       "releaseTag": "develop",
-      "url": "https://github.com/rdkcentral/entservices-account/tree/develop"
+      "url": "https://github.com/rdkcentral/entservices-account/tree/develop",
+      "View Detials": "https://github.com/rdkcentral/entservices-account/blob/develop/plugin/README.md"
     },
     {
       "name": "entservices-audiooutput",
@@ -311,7 +285,8 @@
       "category": "Entertainment Services",
       "layer": "RDK",
       "releaseTag": "develop",
-      "url": "https://github.com/rdkcentral/entservices-systemservices/tree/develop"
+      "url": "https://github.com/rdkcentral/entservices-systemservices/tree/develop",
+      "View Details": "https://github.com/rdkcentral/entservices-systemservices/blob/develop/README.md"
     },
     {
       "name": "entservices-telemetry",
@@ -374,7 +349,8 @@
       "category": "Entertainment Services",
       "layer": "RDK",
       "releaseTag": "develop",
-      "url": "https://github.com/rdkcentral/entservices-warehouse/tree/develop"
+      "url": "https://github.com/rdkcentral/entservices-warehouse/tree/develop",
+      "View Details": "https://github.com/rdkcentral/entservices-warehouse/blob/develop/ARCHITECTURE.md"
     },
     {
       "name": "ermgr",
@@ -404,7 +380,8 @@
       "category": "Data Collection, Test and Diagnostic",
       "layer": "RDK",
       "releaseTag": "main",
-      "url": "https://gn.googlesource.com"
+      "url": "https://gn.googlesource.com",
+      "View Details": "https://gn.googlesource.com/gn/#gn"
     },
     {
       "name": "gst-plugins-rdk",
@@ -467,14 +444,8 @@
       "category": "Device Control Protocols",
       "layer": "RDK",
       "releaseTag": "master",
-      "url": "https://github.com/xmidt-org/libparodus/tree/master"
-    },
-    {
-      "name": "lxccpid",
-      "category": "App Framework",
-      "layer": "RDK",
-      "releaseTag": "master",
-      "url": "https://code.rdkcentral.com/r/plugins/gitiles/rdk/components/generic/lxccpid/+/master"
+      "url": "https://github.com/xmidt-org/libparodus/tree/master",
+      "View Details": "https://github.com/xmidt-org/libparodus/blob/master/README.md"
     },
     {
       "name": "media-utils",
@@ -499,6 +470,7 @@
       "url": [
         "https://github.com/rdkcentral/entservices-messagecontrol/tree/develop"
       ],
+      "View Details": "https://github.com/rdkcentral/entservices-messagecontrol/blob/develop/ARCHITECTURE.md",
       "releaseTag": "develop"
     },
     {
@@ -618,13 +590,6 @@
       "View Details": "https://github.com/rdkcentral/remote_debugger/blob/develop/README.md"
     },
     {
-      "name": "residentui",
-      "category": "App Framework",
-      "layer": "RDK",
-      "releaseTag": "rdk-next",
-      "url": "https://code.rdkcentral.com/r/plugins/gitiles/components/opensource/RDK_apps/+/rdk-next/"
-    },
-    {
       "name": "rtcore",
       "category": "InterProcess Communications",
       "layer": "RDK",
@@ -645,7 +610,7 @@
       "layer": "RDK",
       "releaseTag": "develop",
       "url": "https://github.com/rdkcentral/sceneset/tree/develop",
-      "View Details": "Document Under Review"
+      "View Details": "https://github.com/rdkcentral/sceneset/blob/develop/README.md"
     },
     {
       "name": "streamfs",
@@ -669,13 +634,6 @@
       "releaseTag": "develop",
       "url": "https://github.com/rdkcentral/systemtimemgr/tree/develop/systimerfactory",
       "View Details": "https://github.com/rdkcentral/systemtimemgr/blob/develop/Readme.md"
-    },
-    {
-      "name": "tenablehdcp",
-      "category": "Thunder",
-      "layer": "RDK",
-      "releaseTag": "rdk-next",
-      "url": "https://code.rdkcentral.com/r/plugins/gitiles/rdk/components/generic/rmf_tools/tenableHDCP/+/rdk-next"
     },
     {
       "name": "thunder-plugin-activator",
@@ -761,13 +719,6 @@
       "layer": "RDK",
       "releaseTag": "R4_4",
       "url": "https://github.com/rdkcentral/ThunderExtensions/tree/R4_4"
-    },
-    {
-      "name": "wpeframework-ocdm-clearkey",
-      "category": "Thunder",
-      "layer": "RDK",
-      "releaseTag": "R2",
-      "url": "https://github.com/rdkcentral/OCDM-Clearkey/tree/R2"
     },
     {
       "name": "wpeframework-ocdm-playready-rdk",

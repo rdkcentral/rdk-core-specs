@@ -29,7 +29,7 @@
   const renderCell = (value, column) => {
     if (column.kind === 'detail') {
       const detail = String(value === null || value === undefined ? '' : value).trim();
-      if (!detail) return '<td>Work in progress</td>';
+      if (!detail) return '<td>-</td>';
       if (/^https?:\/\//i.test(detail)) {
         return `<td><a href="${escapeHtml(value)}" target="_blank" rel="noopener">View Details</a></td>`;
       }
