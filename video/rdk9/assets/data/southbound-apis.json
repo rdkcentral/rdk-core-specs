@@ -34,8 +34,8 @@
     },
     {
       "halInterface": "MFRLib HAL",
-      "version": "",
-      "source": ""
+      "version": "develop",
+      "source": "https://github.com/rdkcentral/rdk-halif-mfr/tree/develop"
     },
     {
       "halInterface": "systemaudioplatform HAL",
@@ -55,7 +55,7 @@
     {
       "halInterface": "Westeros Graphics HAL",
       "version": "develop",
-      "source": "https://github.com/rdkcentral/rdk-halif-westeros-gl/blob/develop/Westeros_Graphics_Layer_Southbound_Interface.md"
+      "source": "https://github.com/rdkcentral/rdk-halif-westeros-gl/tree/develop"
     },
     {
       "halInterface": "Graphics & Matrix HAL",
